@@ -71,8 +71,10 @@ header img {
 }
 
 /* Social Media Links */
-.socialmedia a {
-    text-decoration: none;
+.socialmedia {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
 }
 
 .socialmedia img {
@@ -174,15 +176,4 @@ footer {
     justify-content: space-between;
     align-items: center;
     border-top: 1px solid var(--accent1-color);
-}
-
-.socialmedia {
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-}
-
-.socialmedia img {
-    width: 40px;
-    height: auto;
 }
